@@ -23,7 +23,7 @@ time.sleep(2)
 pw = driver.find_element(By.CSS_SELECTOR, "#pw")
 pw.click()
 pyperclip.copy("!Wh124578")
-pyautogui.hotkey("ctrl", "v")
+pyautogui.hotkey("ctrl", "v")  
 time.sleep(2)
 
 # 로그인 버튼 클릭 
